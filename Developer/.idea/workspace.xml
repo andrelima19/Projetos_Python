@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48390f2a-6157-4c52-a63d-f00e6f3f1c93" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Python_Definitivo/Exercícios/Condicionais_While/venv/Ex 57 – Validação de Dados.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_Definitivo/Exercícios/Condicionais_While/venv/Ex 58 – Jogo da Adivinhacao v2.0.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_Definitivo/Exercícios/Condicionais_While/venv/Ex 59 – Criando um Menu de Opções.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Developer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Developer.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_Definitivo/Exercícios/Condicionais_FOR/venv/Ex 55 – Maior e menor da sequência.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_Definitivo/Exercícios/Condicionais_FOR/venv/Ex 55 – Maior e menor da sequência.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python_Definitivo/Exercícios/Condicionais_While/venv/Ex 60 – Cálculo do Fatorial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python_Definitivo/Exercícios/Condicionais_While/venv/Ex 61 – Progressão Aritmética v2.0.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python_Definitivo/Exercícios/Condicionais_While/venv/Ex 64 – Tratando vários valores v1.0.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,8 +37,8 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Python.Ex 59 – Criando um Menu de Opções">
-    <configuration name="Ex 57 – Validação de Dados" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Ex 64 – Tratando vários valores v1.0">
+    <configuration name="Ex  51 – Progressão Aritmética" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Developer" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -50,11 +46,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python_Definitivo/Exercícios/Condicionais_While/venv" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python_Definitivo/Exercícios/Condicionais_FOR/venv" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python_Definitivo/Exercícios/Condicionais_While/venv/Ex 57 – Validação de Dados.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python_Definitivo/Exercícios/Condicionais_FOR/venv/Ex  51 – Progressão Aritmética.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -105,7 +101,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="LacoWhile" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Ex 60 – Cálculo do Fatorial" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Developer" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -113,11 +109,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python_Definitivo/Aulas/venv" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python_Definitivo/Exercícios/Condicionais_While/venv" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python_Definitivo/Aulas/venv/LacoWhile.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python_Definitivo/Exercícios/Condicionais_While/venv/Ex 60 – Cálculo do Fatorial.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -126,7 +122,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="LacoWhile02" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Ex 64 – Tratando vários valores v1.0" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Developer" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -134,11 +130,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python_Definitivo/Aulas/venv" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python_Definitivo/Exercícios/Condicionais_While/venv" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python_Definitivo/Aulas/venv/LacoWhile02.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python_Definitivo/Exercícios/Condicionais_While/venv/Ex 64 – Tratando vários valores v1.0.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -149,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Ex 64 – Tratando vários valores v1.0" />
+        <item itemvalue="Python.Ex  51 – Progressão Aritmética" />
+        <item itemvalue="Python.Ex 60 – Cálculo do Fatorial" />
         <item itemvalue="Python.Ex 59 – Criando um Menu de Opções" />
         <item itemvalue="Python.Ex 58 – Jogo da Adivinhacao v2.0" />
-        <item itemvalue="Python.Ex 57 – Validação de Dados" />
-        <item itemvalue="Python.LacoWhile02" />
-        <item itemvalue="Python.LacoWhile" />
       </list>
     </recent_temporary>
   </component>
