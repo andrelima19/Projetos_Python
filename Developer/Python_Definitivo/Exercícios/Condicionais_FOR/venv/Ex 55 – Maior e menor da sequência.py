@@ -3,10 +3,16 @@
 
 maior = 0
 menor = 0
-peso = []
+
 for pessoa in range(1, 3):
     peso = int(input('Digite o peso: '))
-    if maior > peso:
+    if pessoa == 1:
         maior = peso
+        menor = peso
+    else:
+        if peso > maior:
+            maior = peso
+        if peso < menor:
+            menor = peso
 
-print(maior)
+print(maior, menor)
