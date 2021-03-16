@@ -103,5 +103,90 @@ print(lista2)
 
 # Forma 2
 print(lista2)
-print(lista2[::-1]) # Slice - Mesmo resultado do reverse
+#print(lista2[::-1]) # Slice - Mesmo resultado do reverse
 # string[inicio:fim:passo]
+
+'''
+Copiar uma lista
+'''
+lista6 = lista2.copy()
+print(lista6)
+'''
+# Contando elementos de uma lista
+'''
+print(len(lista1))
+
+'''
+Removendo o último elemento de uma lista - POP
+Obs: O Pop não apenas remove o último elemento, mas também o retorna.
+'''
+print(lista5)
+lista5.pop()
+print(lista5)
+
+'''
+Podemos remover um elemento pelo índice - POP(indice)
+Obs: Os elementos a direita deste índice serão deslocados para a equerda.
+Obs2: Se não houver elemento no índice informado, teremos o erro: 'IndexError'
+'''
+
+lista5.pop(2)
+print(lista5)
+
+'''
+Podemos remover todos os elementos - CLEAR
+'''
+print(lista5)
+lista5.clear()
+print(lista5)
+
+
+''' Podemos repetir os elementos em uma lista. '''
+nova = [1, 2, 3]
+print(nova)
+nova = nova * 3
+print(nova)
+
+''' Convertendo uma lista numa string '''
+lista6 = ['Programação', 'em', 'Python:','Essencial']
+print(lista6)
+
+'''Abaixo estamos falando: Pega a lista6, coloca o espaço em cada elemento e transforma numa string'''
+curso = ''.join(lista6)
+print(curso)
+
+'''Utilizando variáveis em listas'''
+
+numeros = [1,2,3,4,5]
+print(numeros)
+
+n1 = 1
+n2 = 2
+n3 = 3
+
+numeros = [n1, n2, n3]
+print(numeros)
+
+'''Acesso aos elementos de forma indexada'''
+
+cores = ['verde', 'azul', 'amarelo', 'Vermelho']
+print(cores[0])
+print(cores[1])
+print(cores[2])
+
+'''Fazer acesso aos elementos de forma indexada inversa.'''
+'''Para entender melhor o índice negativo, pense na lista como
+um circulo onde o final de um elemento está ligado ao inicio da lista'''
+
+print(cores[-1])
+print(cores[-2])
+print(cores[-3])
+
+
+
+
+
+
+
+
+

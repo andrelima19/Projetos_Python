@@ -13,8 +13,10 @@ print('Digite qualquer número. \n'
 
 while n != 999:
     n = int((input('Digite um número: ')))
+    if n == 999:
+        break
     soma += n
     c += 1
 
-print(f'Soma dos valores digitados: {c - 1, soma - 999}\n'
+print(f'Soma dos valores digitados: {c - 1, soma}\n'
       f'Quantidade de valores digitados: {c}')
