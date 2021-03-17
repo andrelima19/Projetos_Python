@@ -7,6 +7,7 @@ while True:
     pc = randint(1,11)
     total = jogador + pc
     tipo= ' '
+
     while tipo not in 'PI':
         tipo = str(input('PAR ou IMPAR - [P/I]: ')).strip().upper()[0]# Equanto não houver os caracteres especificados, repita
         # o laço.
