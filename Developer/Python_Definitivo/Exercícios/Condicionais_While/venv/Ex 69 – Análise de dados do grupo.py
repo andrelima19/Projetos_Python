@@ -7,25 +7,16 @@
 #
 # C) quantas mulheres tem menos de 20 anos.
 
+resp = ' '
+masc = fem = adulto = menor_f = 0
 
 while True:
-    resp = ' '
-    masc = 0
-    fem = 0
-    adulto = 0
-    menor_f = 0
-
     idade = int(input('Insira sua idade: '))
     if idade > 18:
         adulto = adulto + 1
-        print(adulto)
-
-'''
     genero = str(input('Qual seu Sexo? [M / F]: ')).strip().upper()[0]
     if 'M' in genero:
         masc+=1
-    print(masc)
-
     if 'F' in genero:
         fem+=1
         if idade < 20:
@@ -33,6 +24,8 @@ while True:
 
     resp = str(input('Deseja continuar? [S / N]: ')).strip().upper()[0]
     if 'N' in resp:
+        print(f'A - Pessoas maiores de 18 anos: {adulto}\n'
+              f'B - Quantidade de homens cadastrados: {masc}\n'
+              f'C - Mulheres com menos de 20 anos: {menor_f}')
         break
-'''
 
