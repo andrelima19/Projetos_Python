@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48390f2a-6157-4c52-a63d-f00e6f3f1c93" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Python_Definitivo/Exercícios/Condicionais_While/venv/Ex 71 – Simulador de Caixa Eletrônico - com Prof.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python_Definitivo/Aulas/venv/Tuplas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Developer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Developer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_Definitivo/Aulas/venv/Ex 71 – Simulador de Caixa Eletrônico.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_Definitivo/Aulas/venv/Ex 71 – Simulador de Caixa Eletrônico.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,9 +36,9 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Python.Ex 71 – Simulador de Caixa Eletrônico - com Prof">
+  <component name="RunManager" selected="Python.Tuplas">
     <configuration name="Ex 69 – Análise de dados do grupo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Developer" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -120,7 +123,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Listas" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Tuplas" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Developer" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -128,11 +131,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python_Definitivo/Aulas" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python_Definitivo/Aulas/venv" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python_Definitivo/Aulas/Listas.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python_Definitivo/Aulas/venv/Tuplas.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -143,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Tuplas" />
         <item itemvalue="Python.Ex 71 – Simulador de Caixa Eletrônico - com Prof" />
         <item itemvalue="Python.Ex 70 – Estatísticas em produtos" />
         <item itemvalue="Python.Lab" />
         <item itemvalue="Python.Ex 69 – Análise de dados do grupo" />
-        <item itemvalue="Python.Listas" />
       </list>
     </recent_temporary>
   </component>
