@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48390f2a-6157-4c52-a63d-f00e6f3f1c93" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Python_Definitivo/Aulas/venv/Tuplas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python_Definitivo/Exercícios/Tuplas/Ex 72 – Número por Extenso.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python_Definitivo/Exercícios/Tuplas/Ex 73 – Tuplas com Times de Futebol.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Developer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Developer.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_Definitivo/Aulas/venv/Ex 71 – Simulador de Caixa Eletrônico.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_Definitivo/Aulas/venv/Ex 71 – Simulador de Caixa Eletrônico.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +23,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="1pUNuJoFtMe58DblsvyKY4Bimqb" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -38,28 +46,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Python.Tuplas">
-    <configuration name="Ex 69 – Análise de dados do grupo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Developer" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python_Definitivo/Exercícios/Condicionais_While/venv" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python_Definitivo/Exercícios/Condicionais_While/venv/Ex 69 – Análise de dados do grupo.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.Ex 73 – Tuplas com Times de Futebol">
     <configuration name="Ex 70 – Estatísticas em produtos" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Developer" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -102,7 +89,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Lab" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Ex 72 – Número por Extenso" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Developer" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -110,11 +97,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python_Definitivo/Exercícios/Condicionais_While/venv" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python_Definitivo/Exercícios/Tuplas" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python_Definitivo/Exercícios/Condicionais_While/venv/Lab.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python_Definitivo/Exercícios/Tuplas/Ex 72 – Número por Extenso.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Ex 73 – Tuplas com Times de Futebol" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Developer" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python_Definitivo/Exercícios/Tuplas" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python_Definitivo/Exercícios/Tuplas/Ex 73 – Tuplas com Times de Futebol.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -146,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Ex 73 – Tuplas com Times de Futebol" />
+        <item itemvalue="Python.Ex 72 – Número por Extenso" />
         <item itemvalue="Python.Tuplas" />
         <item itemvalue="Python.Ex 71 – Simulador de Caixa Eletrônico - com Prof" />
         <item itemvalue="Python.Ex 70 – Estatísticas em produtos" />
-        <item itemvalue="Python.Lab" />
-        <item itemvalue="Python.Ex 69 – Análise de dados do grupo" />
       </list>
     </recent_temporary>
   </component>
