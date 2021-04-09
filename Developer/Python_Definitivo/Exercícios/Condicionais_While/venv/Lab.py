@@ -10,6 +10,7 @@ while resp in 'S':
     resp = str(input('Deseja continuar?'))
 
 '''
+'''
 soma = 0
 n = 0
 c = 0
@@ -22,3 +23,17 @@ while c < 5:
 
 
 print(f'Maior: {maior} - Menor: {menor}', end=' ')
+'''
+primeiro = segundo = terceiro = 0
+maior = menor = 0
+primeiro = int(input('Digite um número: '))
+segundo = int(input('Digite outro número: '))
+
+if primeiro > segundo:
+    maior = primeiro
+    menor = segundo
+else:
+    maior = segundo
+    menor = primeiro
+
+print(f'Maior: {maior} - Menor: {menor}')
