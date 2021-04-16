@@ -6,14 +6,22 @@
 #
 # C) Quais foram os números pares.
 
-n1 = int(input('Digite um número: '))
-n2 = int(input('Digite um número: '))
-n3 = int(input('Digite um número: '))
-n4 = int(input('Digite um número: '))
+num = (int(input('Digite um número: ')),
+       int(input('Digite um número: ')),
+       int(input('Digite um número: ')),
+        int(input('Digite um número: '))
+       )
+if 9 not in num:
+    print('O numero 9 não aparece.')
+else:
+    print(f'O número 9 apareceu: {(num.count(9))}vezes')
 
-x = n1, n2,n3,n4
+if 3 not in num:
+    print('Não há o número 3')
+else:
+    print(num.index(3))
 
-print(x.count(9))
-print(x.index(3))
-
-
+print('Os valores pares digitados foram: ', end='')
+for n in num: # Entendendo que os valores em num são copiados para n.
+    if n %2 == 0:
+        print(n, end=' ')
