@@ -20,7 +20,7 @@ listadecompra.insert(1,'arroz') #O elemento arroz foi adicionado na posição 1
 #Ex:
 del listadecompra[1]
 
-#pop - Normalmente usado para apagar o último elemento mas pose ser usado para apagar em qualquer posição
+#pop - Normalmente usado para apagar o último elemento mas pode ser usado para apagar em qualquer posição
 #Ex
 listadecompra.pop()
 listadecompra.pop(3)
