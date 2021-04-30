@@ -5,12 +5,16 @@
 valores = []
 resposta = ''
 
-while resposta in 'sim' :
-    valores.append(int(input('Digite um número: ')))
-    resposta = input(str('Deseja continuar: ')).strip().lower()
-    if 'nao' in resposta:
+while True:
+    n = int(input('Digite um número: '))
+    if n not in valores:
+        valores.append(n)
+    else:
+        print('Valor adicionado, não vou adicionar')
+
+    resposta = str(input('Deseja continuar? ')).strip().lower()
+    if 'sim' not in resposta:
         break
 
-
-
-print(valores,'FIM')
+valores.sort()
+print(f'Fim do programa. Sua lista contém os seguintes números: {valores}')
