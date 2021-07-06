@@ -42,7 +42,11 @@ Podemos facilmente ORDENAR uma lista.
 '''
 lista1.sort()
 print(lista1)
-
+'''
+Podemos facilmente ORDENAR uma lista EM ORDEM DESCRESCENTE.
+'''
+lista1.sort(reverse=True)
+print(lista1)
 '''
 Podemos facilmente contar o número de ocorrências de um valor em uma lista.
 '''
@@ -182,9 +186,12 @@ print(cores[-1])
 print(cores[-2])
 print(cores[-3])
 
+'''>>>>>>>>>>>>ENUMARATE<<<<<<<<<<<<'''
 
+lista8 = [9,3,2,1,4]
 
-
+for c, v in enumerate(lista8):
+    print(f'Na posição {c} encontrei o valor: {v}')
 
 
 

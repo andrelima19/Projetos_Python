@@ -8,5 +8,8 @@ lista = ()
 for c in range(1,6):
     lista = (randint(1,23)),(randint(1,23)),(randint(1,23)),(randint(1,23)),(randint(1,23))
 
-print(type(lista))
+print(f'Numeros gerados: {lista}\n'
+      f'Maior número: {max(lista)}\n'
+      f'Menor número: {min(lista)}')
+
 
