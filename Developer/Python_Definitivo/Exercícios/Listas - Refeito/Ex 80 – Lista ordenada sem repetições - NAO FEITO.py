@@ -7,6 +7,9 @@ lista = []
 
 for c in range(0,4):
     numero = int(input('Digite um número: '))
-
+    if numero > lista[0]:
+         lista.append(numero[1])
+    else:
+         lista.append(numero[0])
 
 print(lista)
