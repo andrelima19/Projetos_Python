@@ -17,12 +17,12 @@ while 'n' not in resp:
     c +=1
 
     if c == 1:
-        mais_pesado = mais_leve = pessoas
+        mais_pesado = mais_leve = pessoas[1]
     else:
-        if mais_pesado > pessoas[1]:
-            mais_pesado.append(pessoas[1])
-        if mais_leve < pessoas:
-            mais_leve.append(pessoas[1])
+        if pessoas[1] > mais_pesado:
+            mais_pesado = pessoas[1]
+        if pessoas[1] < mais_leve:
+            mais_leve = pessoas[1]
 
     resp = str(input('Deseja continuar? ')).strip().lower()
     pessoas.clear()
@@ -32,6 +32,4 @@ print(grupo_pessoas)
 #  A) Quantas pessoas foram cadastradas.
 print(f'Quantidade de pessoas: {c}')
 
-print(mais_pesado, mais_leve)
-
-#print(f'Mais pesados: {mais_pesado} - Mais leves: {mais_leve}')
+print(f'Mais pesados: {mais_pesado} - Mais leves: {mais_leve}')
