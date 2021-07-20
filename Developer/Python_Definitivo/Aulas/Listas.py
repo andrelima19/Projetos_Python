@@ -193,7 +193,36 @@ lista8 = [9,3,2,1,4]
 for c, v in enumerate(lista8):
     print(f'Na posição {c} encontrei o valor: {v}')
 
+'''Colocando valores na lista através do input'''
 
+valores = []
+for cont in range(0,5):
+    valores.append(int(input('Digite um valor: ')))
 
+for c, i in enumerate(valores):
+    print(f'Na posição: {c} encontrei o valor: {i}')
 
+'''Listas vinculadas e desvinculadas'''
+'''Listas Viculadas'''
+a = [1,2,3,4]
+b = a # A lista A estará vinculada a Lista B que foi criada. Veja o exemplo
+
+print(f'Lista A: {a}')
+print(f'Lista B : {b}')
+b[2] = 5
+print(f'Lista A: {a}')
+print(f'Lista B : {b}')
+
+print('+=' * 20)
+print('+=' * 20)
+
+'''Lista desvinculada ou seja apenas uma cópia da outra lista'''
+c = [1, 2, 3, 4]
+d = c[:]  # A lista D terá apenas uma cópia dos valores em C
+
+print(f'Lista C: {c}')
+print(f'Lista D : {d}')
+d[2] = 8
+print(f'Lista C: {c}')
+print(f'Lista D : {d}')
 
