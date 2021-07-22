@@ -3,3 +3,8 @@
 # No final, mostre a lista ordenada na tela.
 
 
+numeros = list()
+
+for c in range(0,4):
+    n = int(input('Digite um número: '))
+    
