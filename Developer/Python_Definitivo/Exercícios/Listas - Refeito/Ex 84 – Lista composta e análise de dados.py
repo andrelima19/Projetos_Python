@@ -6,30 +6,32 @@
 
 grupo_pessoas = []
 dados = []
-
 resp = ' '
 maior = menor = 0
+pesadas = []
+leves = []
 
 while True:
-    dados.append(str(input('Informe o nome: ')))
-    dados.append(int(input('Informe o peso: ')))
+    n = str(input('Digite seu nome: '))
+    dados.append(n)
+    n = int(input('Digite seu peso: '))
+    dados.append(n)
+
     if len(grupo_pessoas) == 0:
-        maior = menor = dados[1]
+        dados[1] = maior = menor
     else:
-        if dados[1] > maior:
-            maior = dados[1]
+        if dados[1] >  maior:
+            pesadas.append(dados[1])
         if dados[1] < menor:
-            menor = dados[1]
+            leves.append(dados[1])
+
     grupo_pessoas.append(dados[:])
     dados.clear()
 
-    resp = input('Deseja continuar? ').strip()
-    if resp in 'Nn':
+    resp = str(input('Deseja continuar? [S/N] ')).strip().upper()
+    if 'S' not in resp:
         break
-
-# A) Quantas pessoas foram cadastradas.
 print(f'Quantidade de pessoas cadastradas: {len(grupo_pessoas)}')
 
-# B)
-print(f'Mais pesado: {maior}\n'
-      f'Mais leve: {menor}')
+print(pesadas)
+print(leves)

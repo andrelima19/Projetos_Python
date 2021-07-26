@@ -18,7 +18,7 @@ while True:
         break
 
 print(lista_princ)
-
-
+print(f'Valores impares: {sorted(lista_princ[1])}')
+print(f'Valores Pares: {sorted(lista_princ[0])}')
 
 

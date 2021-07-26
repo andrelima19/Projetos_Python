@@ -4,28 +4,36 @@
 # B) Uma listagem com as pessoas mais pesadas.
 # C) Uma listagem com as pessoas mais leves.
 
-grupo_pessoas = [[],[],[],[]]
+grupo_pessoas = []
+dados = []
 maior = menor = 0
+resp = ''
 
 while True:
-    nome = str(input('Nome: '))
-    peso = float(input('Peso: '))
-    grupo_pessoas[0].append(nome)
-    grupo_pessoas[1].append(peso)
+    dados.append(str(input('Nome: ')))
+    dados.append(int(input('Peso: ')))
 
     if len(grupo_pessoas) == 0:
-        grupo_pessoas[1] = maior = menor
+        maior = menor = dados[1]
+
     else:
-        if grupo_pessoas[1] > maior:
-            maior = grupo_pessoas[1]
-        if grupo_pessoas[1] < menor:
-            menor = grupo_pessoas[1]
+        if dados[1] > maior:
+            maior = dados[1]
+        if dados[1] < menor:
+            menor = dados[1]
+
+    grupo_pessoas.append(dados[:])
+    dados.clear()
 
     resp = str(input('Deseja continuar? [S/N] ')).strip().upper()
     if 'S' not in resp:
         break
 
-print(f'Lista de pessoas: {grupo_pessoas}\n'
-      f'Nome: {grupo_pessoas[0]}\n'
-      f'Peso: {grupo_pessoas[1]}\n')
-print(grupo_pessoas)
+for pessoas in grupo_pessoas:
+    if pessoas[1] == maior:
+        print(f'{pessoas[0]} foi o/a Mais pesado com {maior}kg')
+    if pessoas[1] == menor:
+        print(f'{pessoas[0]} foi o/a Mais leve com {menor}kg')
+
+print(f'Quantidade de pessoas cadastradas: {len(grupo_pessoas)}')
+
