@@ -30,4 +30,3 @@ for K, v in filme.items():
 
 # Combinando com Listas
 
-locadora = [filme={'titulo': 'Star Wars', 'ano':1977, 'director': 'George Lucas'}]
