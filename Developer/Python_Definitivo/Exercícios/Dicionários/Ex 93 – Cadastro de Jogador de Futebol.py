@@ -6,11 +6,16 @@
 #nome, partidas, gols, gols feitos no campeonato, aproveitamento.
 
 analise = dict()
+partida = 1
 
+analise['total de gols'] = 0
 analise['nome'] = str(input('Nome: '))
-analise['partida'] = int(input('Jogos: '))
+analise['total partida'] = int(input('Jogos: '))
 
-for n in analise['partida']:
+while partida <= analise['total partida']:
+    analise['gols feitos'] = int(input(f'Gol(s) feito na partida {partida}: '))
+    partida +=1
+    analise['total de gols'] = analise['gols feitos'] + analise['total de gols']
 
-    analise['gols'] = int(input(f'Partida: {n} - Gols feitos: {analise["gols"]}: '))
-print(f'{analise["partidas"]} - {analise["gols"]}')
+print(f'Total de partidas disputadas: {analise["total partida"]}\n'
+      f'Total de gols feitos: {analise["total de gols"]}')
