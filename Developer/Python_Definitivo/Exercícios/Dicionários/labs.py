@@ -15,3 +15,14 @@ for k, v in aluno.items():
     print(f'{k} é igual a {v}')
 '''
 
+cadastro = list()
+jogador = dict()
+
+total_gols = 0
+
+while True:
+    jogador['nome'] = str(input('Nome: ')).capitalize()
+    jogador['partidas'] = int(input('Partidas: '))
+
+    for j in range(jogador['partidas']):
+        print(j)
