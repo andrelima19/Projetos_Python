@@ -32,4 +32,4 @@ for i in jogador.keys():
     print(f'{i:<15}', end='')
 print()
 print('-' * 40)
-for k, v in enumerate()
+#for k, v in enumerate()
