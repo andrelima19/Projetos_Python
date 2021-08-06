@@ -25,3 +25,11 @@ print()
 mensagem('CURSO EM VÍDEO')
 mensagem('Teste def')
 mensagem('Teste def 2')
+
+print()
+
+def soma2(a,b):
+    s = a + b
+    print(s)
+
+soma2(3,11)
