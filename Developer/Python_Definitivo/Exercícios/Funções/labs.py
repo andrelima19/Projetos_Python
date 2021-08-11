@@ -33,3 +33,7 @@ def soma2(a,b):
     print(s)
 
 soma2(3,11)
+
+x = 1
+
+print(type(x))
