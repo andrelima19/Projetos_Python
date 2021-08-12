@@ -7,7 +7,7 @@ indicando se uma pessoa tem voto NEGADO, OPCIONAL e OBRIGATÓRIO nas eleições.
 import datetime
 from datetime import date
 
-
+''' 1º modo'''
 def voto():
     # Exibindo a data atual
     data_atual = datetime.datetime.now()
@@ -27,3 +27,21 @@ def voto():
         print(f'Sua idade é: {valid} anos você pode votar!')
 
 voto()
+
+'''2º modo'''
+def voto2(ano):
+    from datetime import date
+    atual = date.today().year
+    idade = atual - ano
+
+    if idade < 16:
+        return (f'Sua idade é: {idade} anos você não pode votar!')
+
+    elif idade >= 16 and idade < 18:
+        return(f'Sua idade é: {idade} anos seu voto é opcional!')
+
+    else:
+        return(f'Sua idade é: {idade} anos você pode votar!')
+
+nasc = int(input('Em que ano você nasceu? '))
+print(voto2(nasc))
