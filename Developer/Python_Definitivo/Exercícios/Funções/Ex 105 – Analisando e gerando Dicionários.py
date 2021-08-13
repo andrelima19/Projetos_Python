@@ -19,15 +19,34 @@ e vai retornar um dicionário com as seguintes informações:
     # situação
 
 turma = []
-nota = []
 aluno = []
 boletim = {}
 
-c = 0
-while c < 3:
-    c+=1
+for n in range(0,3):
+    # Cadastro de boletim dos alunos
     aluno.append(str(input('Nome: ')))
-    nota.append(float(input('Nota: ')))
+    aluno.append(float(input('Nota 1: ')))
+    aluno.append(float(input('Nota 2: ')))
+    aluno.append(float(input('Nota 3: ')))
 
+    # media de cada aluno
+    media = (aluno[1] + aluno[2] + aluno[3])/3
 
-print(aluno, nota)
+    boletim['media'] = media
+    aluno.append(boletim.copy())
+
+    turma.append(aluno[:])
+    aluno.clear()
+
+    # Situação da turma
+
+    print()
+
+    #turma.append(aluno.copy())# Adicionando o dicionário a lista "turma"
+    #aluno['Nota 1'] = float(input('Nota 1: '))
+
+print(turma)
+
+# Média da turma
+media_turma = (turma[0][4] + turma[1][4] + turma[2][4])/3
+print('Media da turma: ', media_turma)
