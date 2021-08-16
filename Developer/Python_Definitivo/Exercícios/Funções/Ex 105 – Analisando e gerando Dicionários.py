@@ -48,5 +48,3 @@ for n in range(0,3):
 print(turma)
 
 # Média da turma
-media_turma = (turma[0][4] + turma[1][4] + turma[2][4])/3
-print('Media da turma: ', media_turma)

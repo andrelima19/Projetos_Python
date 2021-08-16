@@ -30,3 +30,18 @@ for K, v in filme.items():
 
 # Combinando com Listas
 
+# Passando uma lista para um dic
+
+turma = {}
+aluno = []
+
+turma['aluno'] = aluno # Dicionário recebe a lista criada
+aluno.append('André') # Lista recebe valor.
+print(turma)
+
+
+dic = {}
+lista = []
+dic['a'] = lista
+lista.append('a')
+print(dic)
