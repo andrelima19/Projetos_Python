@@ -7,6 +7,7 @@ soma(3,4)
 soma(1,2)
 soma(9,0)
 
+
 '''Chamando a função de forma mais "bonitinha"'''
 def outra_soma(a, b):
     print(f'A = {a} e B = {b}')

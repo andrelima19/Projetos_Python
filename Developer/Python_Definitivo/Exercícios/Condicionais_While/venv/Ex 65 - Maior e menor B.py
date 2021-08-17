@@ -12,7 +12,6 @@ while True:
     c+=1
     soma = soma + n
 
-
     if c == 1:
         maior = menor = n
     else:

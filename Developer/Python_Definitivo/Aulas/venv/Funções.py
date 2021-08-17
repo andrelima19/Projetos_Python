@@ -10,24 +10,21 @@ DEF é Definição de Função
 Exemplo 1 
 '''
 def lin():
-    print('-' * 30)
+    print('=' * 30)
 
+
+# programa principal
 lin() # O comando só é executado quando a função é chamada.
-print('Curso em Vídeo')
-lin()
-print('Aprenda Python')
-lin()
-print('André Lima')
+print('André')
+print('Curso Em vídeo')
 lin()
 
-'''
-Exemplo 2 - Passando um parâmetro
-'''
-def mensagem(txt):
-    print('-' * 30)
-    print(txt)
-    print('-' * 30)
+'''FUNÇÃO COM PARÂMETROS'''
+def mensagem(msg):
+    print('=' * 30)
+    print(msg)
+    print('=' * 30)
 
-mensagem('Testando funções 1')
-mensagem('Testando funções 2')
-mensagem('Testando funções 3')
+mensagem('André') # o conteúdo do argumento é passado a variável 'msg'
+mensagem('Lima')
+mensagem('Casa')
