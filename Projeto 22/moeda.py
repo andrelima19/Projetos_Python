@@ -4,25 +4,48 @@ Exercício Python 107: Crie um módulo chamado moeda.py que tenha as funções i
 diminuir(), dobro() e metade(). Faça também um programa que importe esse módulo e use algumas dessas funções.
 '''
 
-def aumentar(valor):
-    aumento = (valor*0.1) + valor
-    return aumento
+def aumentar(valor = 0, taxa = 0, formato=False):
+    '''
+    Param valor
+    Param taxa
+    Param formato
+    return
+    '''
+    aumento = (valor * taxa/100) + valor
+    return aumento if formato is False else moeda(aumento)
 
-def diminuir(valor):
-    reduzir = valor - (valor*0.15)
-    return reduzir
+def diminuir(valor = 0, taxa = 0, formato=False):
+    reduzir = valor - (valor * taxa/100)
+    return reduzir if formato is False else moeda(reduzir)
 
-def dobro(valor):
+def dobro(valor=0, formato=False):
     dobrar = (valor*2)
-    return dobrar
+    return dobrar if formato is False else moeda(dobrar)
 
-def metade(valor):
+def metade(valor, formato=False):
     meio = (valor/2)
-    return meio
+    return meio if formato is False else moeda(meio)
 
-def moeda(valor):
-    formatacao = f'R$ {valor:.2f}'
-    return formatacao
+def moeda(valor = 0, moeda = 'R$'):
+    #formatacao = f'R$ {valor:.2f}'
+    #return formatacao
+    return f'{moeda}{valor:>.2f}'.replace('.', ',')
 
+def resumo(preco=0, taxa=10, taxar=5):
+    print('=' * 30)
+    print('Resumo do Valor'.center(30))
+    print('=' * 30)
+    print(f'Preço analisado: {moeda(preco)}')
+    print('.' * 30)
+    print(f'Dobro do preço: {moeda(dobro(preco))}')
+    print('.' * 30)
+    print(f'Metade do valor: {moeda(metade(preco))}')
+    print('-' * 30)
+    print(f'Aumento de {taxa}%: {aumentar(preco, taxa, True)}')
+    print('-' * 30)
+    print(f'Redução de {taxar}%:  {diminuir(preco, taxar, True)}')
+
+'''
 x = int(input('Valor: R$'))
 print(f'{moeda(x)}')
+'''
